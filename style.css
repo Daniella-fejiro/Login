@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #251b9c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  padding: 30px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: white;
+  backdrop-filter: blur(50px);
+  border-radius: 30px;
+}
+h3{
+  font-family: 'imbue',Sans-Serif;
+  font-size: 48px;
+  margin-top: 10px;
+  color: blue;
+}
+input[type='search']{
+  height: 40px;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 5px;
+  border: 0.5px solid grey;
+  margin-bottom: 10px;
+}
+input[type='password']{
+  height: 30px;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 5px;
+  border: 0.5px solid grey;
+  margin-top: 10px;
+}
+span{
+ font-family: 'Comic Sans MS',Serif;
+ font-size: 15px;
+}
+.rem{
+  margin: 10px;
+  padding: 5px;
+  text-align: left;
+  font-weight: normal;
+  padding-left: 0;
+  margin-top: 2px;
+}
+.log{
+  background-color: grey;
+  padding: 10px;
+  padding-left:60px ;
+  border-radius: 7px;
+  width: 60%;
+  display: flex;
+  justify-self: center;
+  text-align:center;
+  align-items:center;
+  font-family:'Consolas',Serif;
+  color: white;
+  background-color: blue;
+}
